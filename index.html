@@ -14,16 +14,31 @@
         <div class="sub-container">
             <h1>Generate a <br><span>random password</span></h1>
             <p>Never use an insecure password again.</p>
-            <button >Generate passwords</button>
+
+            <div class="container2">
+                <button id="generate-pass">Generate passwords</button>
+                <fieldset>
+                    <legend>Select length of password:</legend>
+                    <input type="radio" id="eight" name="len" value="8" checked>
+                    <label for="eight">8</label>
+
+                    <input type="radio" id="twelve" name="len" value="12">
+                    <label for="twelve">12</label>
+
+                    <input type="radio" id="fifteen" name="len" value="15">
+                    <label for="fifteen">15</label>
+                </fieldset>
+            </div>
+
             <hr>
             <div class="passwords">
-                <button>rdhhfh</button>
-                <button>fyuyty</button>
+                <p id="pass1"></p>
+                <p id="pass2"></p>
             </div>
         </div>
-
-
     </main>
+
+    <script src="main.js"></script>
 </body>
 
 </html>

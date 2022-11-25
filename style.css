@@ -5,10 +5,10 @@
 }
 
 body {
-  margin: 0;
+  margin: 80px 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+
   background-color: #c6c6c6;
 }
 
@@ -41,7 +41,9 @@ hr {
   border: 1px solid #2f3e53;
 }
 
-button {
+button,
+.passwords p {
+  cursor: pointer;
   margin: 35px 0;
   width: 191px;
   height: 42px;
@@ -50,4 +52,23 @@ button {
   font-size: 16px;
   border-radius: 6px;
   padding: 9px 15px;
+}
+
+.container2,
+.passwords {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container2 fieldset {
+  height: 42px;
+
+  border-color: #10b981 1px solid;
+}
+
+.passwords p {
+  background-color: #2f3e53;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
