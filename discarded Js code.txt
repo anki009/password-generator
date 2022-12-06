@@ -1,0 +1,12 @@
+
+// const copyButton = document.getElementById('pass1');
+// copyButton.addEventListener('click', (event) => {
+//     // getting the text content that we want to copy
+//     const content = document.getElementById('pass1').textContent;
+//     // loading the content into our clipboard
+//     navigator.clipboard.writeText(content);
+//     navigator.clipboard.readText()
+//     .then((copied) => {
+//         console.log(copied);
+//     });
+// })
